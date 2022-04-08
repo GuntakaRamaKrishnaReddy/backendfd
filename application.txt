@@ -1,0 +1,10 @@
+Title of Your WebApplication
+Identify no of forms:
+Identify Fields of each form
+create tables in database according to number of forms
+identify the costraints of each table/schema
+1. WJDBC to insert data in your table using PreparedStatement Object.
+2. WJDBC to retrive data in your table using PreparedStatement Object
+3. WJDBC to retrive data in your table based on the username and password  using PreparedStatement Object
+4. WJDBC to delete data in your table using PreparedStatement Object
+5. WJDBC to update data in your table using PreparedStatement Object
