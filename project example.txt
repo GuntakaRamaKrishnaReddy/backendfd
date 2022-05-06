@@ -1,0 +1,12 @@
+identify forms 
+
+identify tables along with constraints
+
+make a connectivity between your html to db(tables)-servlets/jsp
+
+tomcat server
+
+webapps
+my app
+.......all htmlfiles/jsp file
+

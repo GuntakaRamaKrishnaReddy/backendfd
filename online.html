@@ -1,0 +1,325 @@
+<html>
+<head>
+<title>Online Book Store</title>
+</head>
+<frameset rows="20%,6%,*">
+ <frame name="f1" src="title.html" scrolling="no" noresize/>
+ <frameset cols="20%,20%,20%,20%,20%" scrolling="no" noresize>
+  <frame name="f21" src="home.html" />
+  <frame name="f22" src="login.html" />
+  <frame name="f23" src="registration.html" />
+  <frame name="f24" src="catalogue.html" />
+  <frame name="f25" src="cart.html" />
+ </frameset>
+ <frameset cols="20%,*" noresize>
+  <frame name="f31" src="course.html" scrolling="no" />
+  <frame name="f32" src="homepage.html" scrolling="auto" />
+ </frameset>
+</frameset>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<center><img src="images/logo.jpg" align="middle" height="135" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="purple" size="12">ONLINE BOOK STORE</font></center>
+</body>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<center><a href="homepage.html" target="f32">Home</a></center>
+</body>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<center><a href="loginpage.html" target="f32">Login</a></center>
+</body>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<center><a href="regpage.html" target="f32">Registration</a></center>
+</body>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<center><a href="catpage.html" target="f32">Catalogue</a></center>
+</body>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<center><a href="cartpage.html" target="f32">Cart</a></center>
+</body>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<b>Welcome to Online Book Store</b>
+<p> Here you find all types of books, magazines and national and international journals.</p>
+</body>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<h1 align="center">LOGIN</h1>
+<form method="post">
+<table align="center" cellspacing="10">
+<tr>
+<td><b>User ID</b></td>
+<td><input name="uid" type="text"></td>
+</tr>
+<tr>
+<td><b>Password</b></td>
+<td><input name="pwd" type="password"></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="button" value="Login"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset">
+</td>
+</tr>
+<tr>
+<td colspan="2" align="right"><i><a href="regpage.html">New User Click Here</a></i></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<form>
+<h1 align="center"> REGISTRATION </h1>
+<table align="center" cellspacing="10">
+<tr>
+<td>Name::</td>
+<td> <input name="uname" type="text"> </td>
+</tr>
+<tr>
+<td>Password::</td>
+<td> <input name="pwd" type="password"> </td>
+</tr>
+<tr>
+<td> E-mail ID:: </td>
+<td> <input name="email" type="text"> </td>
+</tr>
+<tr>
+<td> Phone Number:: </td>
+<td> <input name="phno" type="text" maxlength="10"> </td>
+</tr>
+<tr>
+<td> Gender:: </td>
+<td><input name="gender" type="radio" value="Male">&nbsp;&nbsp;Male&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="gender" type="radio" value="Female">&nbsp;&nbsp;Female</td>
+</tr>
+<tr>
+<td> Date of Birth </td>
+<td>
+<select name="date">
+<option>--Date--</option>
+<option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+</select>&nbsp;&nbsp;&nbsp;
+<select name="month">
+<option>--MONTH--</option>
+<option>JAN</option><option>FEB</option><option>MAR</option><option>APR</option><option>MAY</option><option>JUN</option><option>JUL</option><option>AUG</option><option>SEP</option><option>OCT</option><option>NOV</option><option>DEC</option>
+</select>&nbsp;&nbsp;&nbsp;
+<select name="year">
+<option>--YEAR--</option>
+<option>1980</option><option>1981</option><option>1982</option><option>1983</option><option>1984</option><option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option>
+<option>2000</option>
+</select>
+</td>
+</tr>
+<tr>
+<td valign="top">Languages Known::</td>
+<td>
+<input name="lk" type="checkbox" value="English">&nbsp;English<br>
+<input name="lk" type="checkbox" value="Telugu">&nbsp;Telugu<br>
+<input name="lk" type="checkbox" value="Hindi">&nbsp;Hindi<br>
+<input name="lk" type="checkbox" value="Tamil">&nbsp;Tamil<br> </td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea></textarea></td>
+</tr>
+<tr>
+<td colspan="2" align="center"> <input type="submit" value="Register">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="Cancel"> </td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<form>
+<table cellspacing="10">
+<tr>
+<td><img src="images/html5.jpg" width="100" height="100"></td>
+<td> Title  :  HTML5 and CSS3 <br>
+     Author :  Sasha Vodnik   <br> </td>
+<td>Rs. 700 /- </td>
+<td><input type="image" src="images/add to cart.jpg" width="150" height="100"></td>
+</tr>
+<tr>
+<td><img src="images/php.jpg" width="100" height="100"></td>
+<td> Title  :  PHP and MYSQL <br>
+     Author :  W. Jason Gilmore   <br> </td>
+<td>Rs. 650 /- </td>
+<td><input type="image" src="images/add to cart.jpg" width="150" height="100"></td>
+</tr>
+<tr>
+<td><img src="images/j2ee.jpg" width="100" height="100"></td>
+<td> Title  :  The Complete Reference JAVA 2 <br>
+     Author :  Herbert Schildt   <br> </td>
+<td>Rs. 850 /- </td>
+<td><input type="image" src="images/add to cart.jpg" width="150" height="100"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+<html>
+<head>
+</head>
+<body>
+<ul>
+<li>B.Tech.</li>
+<li>M.Tech.</li>
+<li>MBA</li>
+<li>MCA</li>
+<li>Polytechnic</li>
+</ul>
+</body>
+</html>
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+</head>
+<body>
+<h1 align="center">Shopping Cart</h1>
+<form>
+<table align="center" cellpadding="20px">
+<tr>
+<th>Product</th>
+<th>Description</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Subtotal</th>
+</tr>
+<tr>
+<td><img src="images/html5.jpg" width="100" height="100" /></td>
+<td>Title : HTML5 and CSS3 <br>Author : Sasha Vodnik</td>
+<td>Rs. 700 /-</td>
+<td><input type="text" size="2" value="1" readonly /></td>
+<td>Rs. 700 /-</td>
+</tr>
+<tr>
+<td><img src="images/php.jpg" width="100" height="100" /></td>
+<td>Title : PHP and MYSQL <br>Author : W. Jason Gilmore </td>
+<td>Rs. 650 /- </td>
+<td><input type="text" size="2" value="1" readonly /></td>
+<td>Rs. 650 /- </td>
+</tr>
+<tr>
+<th colspan="2">Promotion Code</td>
+<th colspan="3">Cart Totals</td>
+</tr>
+<tr>
+<td colspan="2"><input type="text" placeholder="Coupon code" /> &nbsp; <input type="button" value="Apply Coupon" /></td>
+<th colspan="2">Subtotal</th>
+<td>Rs. 1350 /-</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<th colspan="2">Total</th>
+<th>Rs. 1350 /-</th>
+</tr>
+<tr>
+<td colspan="5" align="right"><input type="button" value="Proceed to Checkout" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Payment Gateway</title>
+</head>
+<body>
+<h1 align="center">Credit Card Payment Gateway</h1>
+<hr>
+<form>
+<table align="center" cellpadding="20px">
+<tr>
+<td colspan="2" align="center"><h2>Payment Details</h2></td>
+</tr>
+<tr>
+<td colspan="2">
+<b>CARD NUMBER</b><br>
+<input type="text" placeholder="Valid Card Number" size="52" />
+</td>
+</tr>
+<tr>
+<td><b>Expire Date</b><br><input type="text" placeholder="MM/YY" /></td>
+<td><b>CV Code</b><br><input type="text" placeholder="CVV" /></td>
+</tr>
+<tr>
+<td colspan="2">
+<b>CARD OWNER</b><br>
+<input type="text" placeholder="Card Owner Name" size="52" />
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="button" value="Confirm Payment">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
